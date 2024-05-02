@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    margin-top: 30px;
+}
+
+#container {
+    display: flex;
+}
+
+canvas {
+    background-color: black;
+    border: 1px solid white;
+}
+
+#game {
+    height: 640px;
+    width: 320px;
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#rightSide {
+    margin-left: 25px;
+}
+
+#nextShape {
+    height: 128px;
+    width: 128px;
+}
+
+#score {
+    height: 128px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
